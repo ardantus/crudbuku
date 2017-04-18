@@ -1,0 +1,134 @@
+body {
+	margin: 0px auto;
+	padding: 0px;
+	width: 1300px;
+	font-family: courier new, courier;
+}
+
+#wrapper {
+    margin: 1px auto;
+    max-width: 1200px;
+    width: 90%;
+    background: #fff;
+    padding: 2px 0;
+}
+
+#header {
+	font-weight: bold;
+	font-size: 19px;
+	padding: 5px;
+	text-align: center;
+	border: 0px dotted;
+	margin-bottom: 2px;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	text-decoration: none;
+	min-height: 100px;
+
+}
+
+#logo {
+		text-shadow: 8px 8px 8px #aaa;
+		font-size: 90px;
+}
+
+#menu {
+	font-weight: bold;
+	padding: 5px;
+	border: 0px dotted;
+	margin-bottom: 2px;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	text-decoration: none;
+}
+
+#menu a {
+	color: white;
+	text-decoration: none;
+}
+
+#content {
+	min-height: 368px;
+	overflow: hidden;
+	border: 0px dotted;
+	margin-bottom: 2px;
+	overflow: hidden;
+}
+
+#content a {
+	color: black;
+	text-decoration: none;
+}
+
+#judul {
+	text-align: center;
+}
+
+
+#footer {
+	border: 0px dotted;
+	padding: 2px;
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	text-decoration: none;
+}
+
+#footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.data-tabel {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid;
+}
+
+.data-tabel th,
+.data-tabel td {
+	border: 1px solid;
+	padding: 3px;
+	align-content: center;
+}
+
+.form-input {
+	width: 80%;
+	margin: auto;
+}
+
+.form-input .label {
+	width: 30%;
+	padding: 4px;
+	text-align: right;
+}
+
+.form-input .input {
+	padding: 4px;
+}
+
+.ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}

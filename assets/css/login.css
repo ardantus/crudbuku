@@ -1,0 +1,17 @@
+body {
+	margin: 0px auto;
+	padding: 0px;
+	width: 900px;
+	font-family: arial, tahoma;
+}
+
+#box-login {
+	margin: 50px auto;
+	border: 1px solid;
+	width: 350px;
+	padding: 20px;
+}
+
+#box-login div {
+	margin-bottom: 10px;
+}

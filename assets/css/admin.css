@@ -1,0 +1,106 @@
+body {
+    background: #F9F9F9;
+    color: #222;
+    font-family: 'Droid Serif', serif;
+    font-size: 16px;
+}
+
+#wrapper {
+    margin: 1px auto;
+    max-width: 1200px;
+    width: 90%;
+    background: #fff;
+    padding: 2px 0;
+}
+
+#header {
+	font-weight: bold;
+	font-size: 19px;
+	padding: 5px;
+	text-align: center;
+	border: 0px dotted;
+	margin-bottom: 2px;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	text-decoration: none;
+	min-height: 100px;
+
+}
+
+#logo {
+		text-shadow: 8px 8px 8px #aaa;
+		font-size: 50px;
+}
+
+#menu {
+	font-weight: bold;
+	padding: 5px;
+	border: 0px dotted;
+	margin-bottom: 2px;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	text-decoration: none;
+}
+
+#menu a {
+	color: white;
+	text-decoration: none;
+	margin-right: 30px;
+}
+
+#isi {
+	min-height: 368px;
+	overflow: hidden;
+	border: 0px dotted;
+	margin-bottom: 2px;
+	overflow: hidden;
+}
+
+#isi a {
+	color: black;
+	text-decoration: none;
+}
+
+#footer {
+	border: 0px dotted;
+	padding: 2px;
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	text-decoration: none;
+}
+
+#footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.data-tabel {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid;
+}
+
+.data-tabel th,
+.data-tabel td {
+	border: 1px solid;
+	padding: 3px;
+}
+
+.form-input {
+	width: 80%;
+	margin: auto;
+}
+
+.form-input .label {
+	width: 30%;
+	padding: 4px;
+	text-align: right;
+}
+
+.form-input .input {
+	padding: 4px;
+}
